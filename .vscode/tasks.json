@@ -6,7 +6,12 @@
         {
             "label": "clang-format",
             "type": "shell",
-            "command": "python run_clang_format.py -r . -i"
+            "command": "python3 run_clang_format.py -r . -i"
+        },
+        {
+            "label": "build: sandbox.out",
+            "type": "shell",
+            "command": "g++ -std=c++14 sandbox.cc -o sandbox.out"
         }
     ]
 }
