@@ -48,6 +48,8 @@
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "typeinfo": "cpp",
-        "fstream": "cpp"
-    }
+        "fstream": "cpp",
+        "motorcycle.hh": "c"
+    },
+    "C_Cpp.default.compilerPath": "/usr/bin/g++-11"
 }
